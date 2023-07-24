@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>work</class>
+ <widget class="QWidget" name="work">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>SuperCalendar-团队日程管理</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>618</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget_4{
+border-image: url(:/res/img13.jpg);
+}
+</string>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>714</x>
+      <y>491</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>9</y>
+       <width>97</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>占用（个人）</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>7</y>
+       <width>75</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 85, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="team">
+    <property name="geometry">
+     <rect>
+      <x>715</x>
+      <y>-1</y>
+      <width>281</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color: rgb(0, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>当前团队：111</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="calendar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>149</y>
+      <width>656</width>
+      <height>11111111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 85, 255);</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>6</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>80</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>29</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>08:00--09:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>09:00--10:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10:00--11:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11:00--12:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12:00--13:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13:00--14:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>14:00--15:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>15:00--16:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>16:00--17:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>17:00--18:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>18:00--19:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>19:00--20:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>20:00--21:00</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>21:00--22:00</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>星期一</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>星期二</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>星期三</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>星期四</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>星期五</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>星期六</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>星期天</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>85</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="7" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="8" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="9" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="10" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="11" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="12" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="13" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="14" column="6">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextBrowser" name="view">
+    <property name="geometry">
+     <rect>
+      <x>688</x>
+      <y>160</y>
+      <width>256</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+background:transparent;
+border:1px solid;
+border-color: rgb(102, 156, 255);
+color: green;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>-1</y>
+      <width>150</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color: rgb(0, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>按时段精确查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_last">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>100</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="range">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>253</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>11</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>2023年6月3日--2023年6月9日</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>-1</y>
+      <width>140</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color: rgb(0, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>进入聊天模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="link">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>-1</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color: rgb(0, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>数据同步</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addplan">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>42</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>新建团队日程</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>714</x>
+      <y>430</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>9</y>
+       <width>55</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>空闲</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>7</y>
+       <width>75</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(119, 163, 100);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>714</x>
+      <y>551</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>9</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>占用（团队）</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>7</y>
+       <width>75</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 150, 200);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>50</y>
+      <width>371</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>团队空闲时段查询--表格视图</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_next">
+    <property name="geometry">
+     <rect>
+      <x>458</x>
+      <y>100</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
